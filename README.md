@@ -37,7 +37,7 @@ rakshitha33277 – 2400033277
 ## Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/ReliefConnect-frontend.git
+git clone https://github.com/<Swarali49>/ReliefConnect-frontend.git
 cd ReliefConnect-frontend
 npm install
 npm run dev
