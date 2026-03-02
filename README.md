@@ -28,11 +28,10 @@ https://www.figma.com/proto/URjCEKbEuQKeryMjrA53ju/ReliefConnect_Figma?node-id=1
 - Deployed on Vercel
 
 ## Team
-Swarali49 – 2400031727
 
-Likhitha33199 – 2400033199
-
-rakshitha33277 – 2400033277
+- Swarali – 2400031727  
+- Sai Likhitha – 2400033199  
+- Rakshitha – 2400033277  
 
 ## Getting Started
 
@@ -41,4 +40,3 @@ git clone https://github.com/Swarali49/ReliefConnect-frontend.git
 cd ReliefConnect-frontend
 npm install
 npm run dev
-
