@@ -11,32 +11,34 @@ function LandingPage() {
       <Navbar />
       <main className="landing">
         {/* HERO SECTION */}
-        <section className="landing__hero">
-          <div className="landing__text">
-            <h1>{t.heroTitle}</h1>
-            <p>{t.heroSub}</p>
-            <div className="landing__actions">
-              <Link to="/donor" className="btn primary">
-                {t.donateNow}
-              </Link>
-              <Link to="/recipient" className="btn secondary">
-                {t.requestHelp}
-              </Link>
+        <div className="hero-bg">
+          <section className="landing__hero">
+            <div className="landing__text">
+              <h1>{t.heroTitle}</h1>
+              <p>{t.heroSub}</p>
+              <div className="landing__actions">
+                <Link to="/donor" className="btn primary">
+                  {t.donateNow}
+                </Link>
+                <Link to="/recipient" className="btn secondary">
+                  {t.requestHelp}
+                </Link>
+              </div>
             </div>
-          </div>
 
-          <div className="landing__highlight landing__highlight--alert">
-            <h2>{t.activeDrives}</h2>
-            <ul>
-              <li>
-                <strong>{t.drive1}</strong> · {t.driveStatusOngoing}
-              </li>
-              <li>
-                <strong>{t.drive2}</strong> · {t.driveStatusCollecting}
-              </li>
-            </ul>
-          </div>
-        </section>
+            <div className="landing__highlight landing__highlight--alert">
+              <h2>{t.activeDrives}</h2>
+              <ul>
+                <li>
+                  <strong>{t.drive1}</strong> · {t.driveStatusOngoing}
+                </li>
+                <li>
+                  <strong>{t.drive2}</strong> · {t.driveStatusCollecting}
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
 
         {/* HOW IT WORKS */}
         <section className="landing__steps">
@@ -74,8 +76,8 @@ function LandingPage() {
             <li>{t.impactItem3}</li>
           </ul>
         </section>
-        <section className="landing__impact">...</section>
-      <Footer />
+
+        <Footer />
       </main>
     </>
   );
