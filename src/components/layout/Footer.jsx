@@ -1,6 +1,15 @@
 function Footer() {
   return (
     <footer className="footer">
+       <span>© {new Date().getFullYear()} ReliefConnect</span>
+      <a
+        href="https://github.com/Swarali49/ReliefConnect-frontend"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer__github"
+      >
+        View frontend code on GitHub
+      </a>
       <div className="footer__left">
         <span>© {new Date().getFullYear()} ReliefConnect</span>
         <span> | Built as FSAD Project</span>

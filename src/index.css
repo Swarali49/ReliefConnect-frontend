@@ -515,6 +515,28 @@ tbody tr:hover {
   margin: 0 0.25rem;
 }
 
+.footer {
+  margin-top: 3rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.footer__github {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer__github:hover {
+  text-decoration: underline;
+}
+
+
 /*badges*/
 
 .badge {
